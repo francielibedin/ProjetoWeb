@@ -8,7 +8,9 @@
 </head>
 <body>
 
-<a href="HomeServlet">Home.</a>
+<a href="ListagemProdutosServlet">Listar produtos</a>
+</br>
+<a href="HomeServlet">Cadastrar novo produto</a>
 
 </body>
 </html>
