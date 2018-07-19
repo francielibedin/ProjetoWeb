@@ -11,12 +11,10 @@ Criar uma classe chamada Produto
 como br.com.praticaweb.model.Produto
 Deve ter: Codigo, Nome, Valor e Fabricante
 
-
 Passo 4
 Criar uma classe de Servlet que será o início da execução.
 Esta classe pode ser br.com.praticaweb.servlet.HomeServlet
 Mapear esta classe do web.xml.
-
 
 Passo 5
 Na classe de Servlet no método doGet, que será iniciado logo de largada,
@@ -28,7 +26,6 @@ Além disto, no método doGet, deve ser invocado um arquivo chamado home.jsp,
 que deve mostrar dois links:
 - Listar produtos
 - Cadastrar novo produto
-
 
 Passo 6
 Criar um segundo servlet chamado ListagemProdutosServlet.
@@ -45,9 +42,11 @@ numa tabela simples
 </tr>
 </table>
 Neste arquivo também deve existir um Link que retorne à home.
+
 Passo 7
 No arquivo home.jsp, direcionar o link de Listagem para a rota criada
 no mapeamento para o servlet ListagemProdutosServlet.
+
 Passo 8
 Criar um terceiro servlet chamado CadastroProdutoServlet.
 Mapear esta classe do web.xml.
@@ -55,11 +54,10 @@ No método doGet desta classe deve ser chamado o arquivo novo-produto.jsp
 Neste arquivo deve ser montado um form, que contenha os campos necessários
 para inclusão de um novo produto.
 O form deve postar para o próprio servlet CadastroProdutoServlet.
-No método doPost deste servlet deve ser feita a adição do novo produto
-na session antes alimentada.
+No método doPost deste servlet deve ser feita a adição do novo produto na session antes alimentada.
 Ao final deve ser direcionado para o servlet da home.
-Neste arquivo também deve existir um Link que cancela a inclusão
-e retorna à home.
+Neste arquivo também deve existir um Link que cancela a inclusão e retorna à home.
+
 Passo 9
 No arquivo home.jsp, direcionar o link de Cadastro para a rota criada
 no mapeamento para o servlet CadastroProdutoServlet.

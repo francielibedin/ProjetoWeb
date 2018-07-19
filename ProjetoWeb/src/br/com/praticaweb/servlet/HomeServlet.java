@@ -36,13 +36,9 @@ public class HomeServlet  extends HttpServlet{
 			produtos.add(prod2);
 			
 			request.getSession().setAttribute("produto", produtos);
-			
-			RequestDispatcher view = request.getRequestDispatcher("home.jsp");
-			view.forward(request, response);
-
 		}
-		
-		
+		RequestDispatcher view = request.getRequestDispatcher("home.jsp");
+		view.forward(request, response);		
 	}
 
 }

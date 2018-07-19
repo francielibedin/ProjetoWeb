@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -8,9 +8,9 @@
 </head>
 <body>
 
-<a href="ListagemProdutosServlet">Listar produtos</a>
-</br>
-<a href="HomeServlet">Cadastrar novo produto</a>
+	<a href="ListagemProdutosServlet">Listar produtos</a>
+	</br>
+	<a href="CadastroProdutoServlet">Cadastrar novo produto</a>
 
 </body>
 </html>
